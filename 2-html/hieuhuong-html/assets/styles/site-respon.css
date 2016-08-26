@@ -1,0 +1,252 @@
+﻿@media screen and (max-width: 1199px) {
+    .container {
+        width: 980px;
+    }
+
+    #header .head-right .top-head-right .hotline p {
+        font-size: 22px;
+    }
+
+    #menu > li > a {
+        font-size: 14px;
+    }
+
+    #header .head-left .company h1 {
+        font-size: 30px;
+        margin-left: 50px;
+    }
+
+    #header .head-left .company p {
+        font-size: 18px;
+    }
+
+    .main-introduce {
+        background-size: cover;
+    }
+
+    .main-cate .items:nth-child(8n + 1) {
+        margin-left: -64px;
+    }
+
+    .main-cate .items:nth-child(6n + 1) {
+        margin-left: 0;
+    }
+
+    .content-main-intro {
+        width: 75%;
+    }
+
+    /** product **/
+    aside.aside-product {
+        width: 250px;
+    }
+
+    .main-product {
+        width: calc(100% - 254px);
+    }
+
+    /* product-detail */
+    .left-detail-sp {
+        margin: 0 auto;
+        display:block;
+    }
+    .right-detail-sp {
+        width:100%;
+        padding:0;
+    }
+    .right-detail-sp > p {
+        padding-bottom:10px;
+    }
+}
+@media (min-width: 993px) and (max-width: 1199px) {
+    
+}
+
+@media (max-width: 992px) {
+    .ipadmo-992 { /* hiện menu đt */
+        display: block;
+    }
+    .desktop-992 { /* ẩn menu pc */
+        display: none;
+    }
+
+}
+@media screen and (max-width: 991px){
+    /* menu mobile */
+    .menu-mo {
+        position:relative;
+        z-index:15;
+        top:0px;
+        right:-15px;
+    }
+
+    .menu-mobile .logo img{
+        display:block;
+        margin:0 auto;
+        max-width:100%;
+        margin-bottom:5px;
+    }
+    /* menu mobile */
+    .container {
+        width:750px;
+    }
+    #header .head-right {
+        position:static;
+        margin-top: -50px;
+    }
+    #header .head-right .top-head-right .search {
+        display:none;
+    }
+    #header .head-right .top-head-right .hotline {
+        display:none;
+    }
+    #header .head-right .top-head-right .language {
+        position:absolute;
+        top:-10px;
+        right:0;
+    }
+    .main-cate .items {
+        margin-left: -45px;
+        width:150px;
+        height:150px;
+    }
+    .main-cate .items::after {
+        display:none;
+    }
+    .main-cate .items:nth-child(6n + 1) {
+        margin-left:-45px;
+    }
+    .main-cate .items:nth-child(6n + 1) {
+        margin-left:0;
+    }
+
+
+    /** product **/
+    aside.aside-product {
+        width:100%;
+        margin-top:15px;
+    }
+    .main-product {
+        width: 100%;
+    }
+
+
+    /* tuyen dung */
+    .down-pfd {
+        display:none;
+    }
+    .rec-content {
+        width:100%;
+    }
+    .wrap-contact .col-md-6:last-child {
+      border-left:none;
+    }
+    
+}
+@media screen and (max-width: 970px) {
+   
+}
+@media screen and (max-width: 820px) {
+
+}       
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 992px){ 
+	
+}
+@media screen and (max-width: 768px){
+    .container {
+        width:90%;
+    }
+    .main-cate {
+        text-align:center;
+    }
+    .main-cate .items {
+        margin-left: 0;
+        width:150px;
+        height:150px;
+        float:none;
+        display:inline-block;
+    }
+    .main-cate .items:nth-child(6n + 1) {
+        margin-left:0;
+    }
+    .main-introduce {
+        background:url(../images/bg-intro-768.png) no-repeat;
+    }
+    .content-main-intro {
+        width: 100%;
+    }
+    .footer-content .pull-left{
+        float:none !important;
+    }
+    .footer-content .pull-right{
+        float:none !important;
+    }
+    .follow-ft {
+        text-align: left;
+    }
+    .copyright a {
+        text-align: left;
+    }
+
+    /** product **/
+    .product-items .items {
+        width: calc(50% - 4px);
+    }
+}
+@media screen and (max-width: 640px){
+	#header .head-left .logo img {
+        position: static;
+        width:120px;
+    }
+    #header .head-left .logo {
+        margin-left:0;
+        width:120px;
+    }
+    #header .container .row::after {
+        display:none;
+    }
+}
+@media screen and (max-width: 550px){
+	#header .head-left .company p {
+        font-size: 3vw;
+    }
+    #header .head-left .company h1 {
+        font-size: 5vw;
+        margin-left:15px;
+        margin-top:0;
+        margin-bottom:0;
+    }
+
+    /* product-detail */
+    .left-detail-sp {
+        width:100%;
+    }
+    /* contact */
+    .wrap-send .col-xs-6 {
+        width:100%;
+    }
+}
+@media screen and (max-width: 480px) {
+    #header {
+        height:95px;
+        padding:5px 0;
+    }
+    #header .head-left .logo {
+        margin-left:0;
+        width:75px;
+    }
+    #header .head-left .company {
+        width:calc(100% - 90px);
+    }
+    /** product **/
+    .product-items .items {
+        width:100%;
+    }
+}
+@media screen and (max-width: 420px){
+	#header .head-left .logo {
+        margin-top: 20px;
+        width: 50px;
+    }
+}

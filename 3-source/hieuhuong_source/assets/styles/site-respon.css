@@ -129,6 +129,9 @@
     .main-product {
         width: 100%;
     }
+    .product-items .pro-img .hidden-button {
+        display:none;
+    }
 
 
     /* tuyen dung */

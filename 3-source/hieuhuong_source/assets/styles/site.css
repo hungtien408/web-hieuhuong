@@ -103,8 +103,8 @@ a:visited, a:focus {
     text-align:right;
 }
 #header .head-right .top-head-right .language{
-    margin-top:9px;
-    margin-bottom:7px;
+    margin-top:5px;
+    margin-bottom:5px;
 }
 #header .head-right .top-head-right .hotline{
     display:inline-block;
@@ -606,9 +606,10 @@ a:visited, a:focus {
 .main-cate .items a img{
     display:block;
     margin:0 auto;
-    max-width:90%;
+    max-width:85%;
     max-height:60%;
     margin-bottom:5px;
+    width:85%;
 }
 .main-cate .items p{
     font-family: 'UTM AvoBold';

@@ -19,7 +19,7 @@ public partial class contact : System.Web.UI.Page
         msg += "<b>Email: </b>" + txtEmail.Text.Trim().ToString() + "<br />";
         msg += "<b>Phone: </b>" + txtPhone.Text.Trim().ToString() + "<br />";
         msg += "<b>Content: </b>" + txtNoiDung.Text.Trim().ToString();
-        Common.SendMail("smtp.gmail.com", 587, "webmastersendmail0401@gmail.com", "web123master", "cc@tranlegroup.com", "", "Contact HIẾU HƯƠNG", msg, true);
+        Common.SendMail("smtp.gmail.com", 587, "webmastersendmail0401@gmail.com", "web123master", "hieuhuongplastics@gmail.com", "", "Contact HIẾU HƯƠNG", msg, true);
     }
     protected void btGui_Click(object sender, EventArgs e)
     {
